@@ -1,0 +1,45 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .carousel {
+    margin-bottom: 40px;
+  }
+  
+  .carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  .card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    color: #333;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+  }
+  
